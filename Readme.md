@@ -78,16 +78,16 @@ Api Endpoints
 *  **POST Payload**
 
    ```
-   { 
+   {
     "&&":
       [
-          { "==": 
-            ["a", "a"] 
+          { "==":
+            ["a", "a"]
           },
-          { "!": 
-            {"==": 
-                [1, 2] 
-            } 
+          { "!":
+            {"==":
+                [1, 2]
+            }
           }]
     }
    ```
@@ -99,5 +99,5 @@ Api Endpoints
 
 * **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "Failed to fetch data." }`
+  * **Code:** 400<br />
+    **Content:** `Missing expression`
