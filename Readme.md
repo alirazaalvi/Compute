@@ -56,8 +56,7 @@ Project Structure
 | **api**/api             | Contains all of the api logic.              |
 | .eslintrc                          | Rules for eslint linter.                                     |
 | .gitignore                         | Folder and files ignored by git.                             |
-| .travis.yml                        | Configuration files for continue integration.                |
-| app.js                             | The main application file.                                   |
+| server.ts                             | The main application file.                                   |
 | package.json                       | NPM dependencies.                                            |
 | package-lock.json                  | Contains exact versions of NPM dependencies in package.json. |
 
